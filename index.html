@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Stroid Rage</title>
+    <link rel="stylesheet" href="asteroids.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="titleScreen" class="title-screen">
+        <div class="title-content">
+            <h1 class="game-title">Stroid Rage</h1>
+            <div class="author-credit">BY TCB</div>
+            <div class="start-prompt">CLICK TO START</div>
+        </div>
+    </div>
+    <div class="game-container">
+        <canvas id="gameCanvas"></canvas>
+        <div class="game-info">
+            <div id="score">Score: 0</div>
+            <div id="ufoKills">UFO Kills: 0</div>
+            <div id="lives">Lives: 3</div>
+        </div>
+        <div class="mobile-controls">
+            <div class="control-group">
+                <div class="control-btn" id="leftBtn">←</div>
+                <div class="control-btn" id="thrustBtn">↑</div>
+                <div class="control-btn" id="rightBtn">→</div>
+            </div>
+            <div class="control-group">
+                <div class="control-btn" id="shootBtn">•</div>
+            </div>
+        </div>
+    </div>
+    <script src="asteroids.js"></script>
+</body>
+</html>
